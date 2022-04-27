@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>New Beginning</title>
+    <link rel="stylesheet" type="text/css" href="appy.css">
+    <style>
+        body {
+            background-color: rgba(27, 31, 34, 0.85);
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            line-height: 1.4;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            color: red;
+            margin-top: 50px;
+        }
+        h3{
+            
+            color: pink;
+        }
+
+        p {
+            color: white;
+        }
+
+        .maindiv {
+            width: 30%;
+            height: 500px;
+            position: absolute;
+            left: 50%;
+            top: 80%;
+            transform: translate(-50%, -80%);
+            background-image: url("Images/beauty1.jpeg");
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px white;
+            animation: slider 9s infinite linear;
+
+        }
+
+        @keyframes slider {
+            1% {
+                background-image: url("Images/beauty2.jpeg")
+            }
+
+            40% {
+                background-image: url("Images/beauty4.jpeg");
+            }
+            60% {
+                background-image: url("Images/beauty3.jpeg");
+            }
+            90% {
+                background-image: url("Images/beauty6.jpeg");
+             }
+             100% {
+                background-image: url("Images/beauty5.jpeg");
+             }
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1><span>Happy Birthday</span></h1>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <p>
+       <h3>I know we didn't always get along when we were younger. When I consider all of the years and birthdays that have passed, I realise how fortunate I am to have you all as a sibling. We've had a great time.I love you all enjoy your birthday </h3>
+    </p>
+
+    <div class="maindiv">
+
+    </div>
+</body>
+
+</html>
